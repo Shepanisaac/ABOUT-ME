@@ -1,0 +1,80 @@
+body{
+  background-color: #010304;
+  color: rgb(229, 222, 222);
+}
+ul.social-icons {
+  padding: 0;
+}
+.social-icons li {
+  list-style: none;
+  display: inline-block;
+  border-radius: 2em;
+  overflow: hidden;
+}
+.social-icons li a {
+  display: block;
+  padding: 0.3em;
+  max-width: 2em;
+  min-width: 2em;
+  height: 2em;
+  line-height: 1.5em;
+  font-family: arial;
+  color: #fff;
+}
+
+.social-icons li:hover a {
+  transform: scale(1.15);
+}
+.social-icons .linkedin {
+  background: #4875B4;
+}
+.social-icons .twitter {
+  background: #33CCFF;
+}
+.social-icons .medium {
+  background: #2f2f2f;
+}
+.social-icons .github {
+  background: #6e5494;
+}
+.social-icons .mail {
+    background: #B20000;
+  }
+
+hr.divider {
+  border-top: 1px solid #DCDCDC;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.personal-statement {
+  text-align: justify;
+}
+
+.description-text {
+    text-align: justify;
+  }
+
+.profile-image{
+    /* height: 200px; */
+    /* width: 200px; */
+    /* align-content: center; */
+  width: 200px;
+  height: auto;
+  padding: 1px;
+  background: rgba(234, 228, 228, 0.1);
+  box-shadow: 1px 1px 3px rgba(230, 221, 221, 0.3);
+  border: 1px solid rgba(22, 13, 13, 0.895);
+}
+.profile-image {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.top-col{
+     padding: 50px;
+    padding-bottom: 0px; 
+    margin-top: 15px;
+    padding: 0px 50px 0px 50px;
+}
+  
