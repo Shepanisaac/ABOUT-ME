@@ -58,17 +58,13 @@ hr.divider {
 .profile-image{
     /* height: 200px; */
     /* width: 200px; */
-    /* align-content: center; */
+  align-content: center;
   width: 200px;
-  height: auto;
+  height: 200px;
   padding: 1px;
   background: rgba(234, 228, 228, 0.1);
   box-shadow: 1px 1px 3px rgba(230, 221, 221, 0.3);
   border: 1px solid rgba(22, 13, 13, 0.895);
-}
-.profile-image {
-  width: 50%;
-  border-radius: 10px;
 }
 
 .top-col{
